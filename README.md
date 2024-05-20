@@ -1,4 +1,26 @@
 # Hybrid-SSRN-Vision-Transformer-Architecture-For-Hyperspectral-Image-Classification
 A SSRN Layer with Vision Transformer Architecture for Hyperspectral Image Classification On Indian Pines Dataset
+---
+## Abstract
+ Inthisproject,weproposeahyperspectralimageclassificationmethodbasedon
+ ahybridapproachcombiningthestrengthsofvisiontransformersand
+ convolutionalneuralnetworks(CNNs).Visiontransformers,knownfortheir
+ effectivenessinnaturallanguageprocessing,offerauniquearchitecturethat
+ employsmultiheadattentionmechanismstoestablishlong-rangecontextual
+ relationsbetweenpixelsinimages.Ourmethodstartsbydividingtheimages
+ intopatches,whicharethenconvertedintosequencesthroughflatteningand
+ embeddingprocesses.Topreservepositionalinformation,weincorporate
+ positionembeddingsintothesepatches.Theresultingsequencesarethenpassed
+ throughmultiplemultiheadattentionlayerstogeneratecomprehensive
+ representations.Fortheclassificationphase,theinitialtokensequenceisdirected
+ toasoftmaxclassificationlayer.Toenhanceclassificationperformance,we
+ investigatevariousdataaugmentationstrategiestoaugmentthetrainingdataset.
+ Furthermore,throughexperimentation,wedemonstratethenetwork'sabilityto
+ achievecompetitiveclassificationaccuraciesevenafterpruninghalfofitslayers,
+ showcasingitsefficiency.Resultsfromexperimentsconductedondiverse
+ remote-sensingimagedatasetshighlightthepromisingcapabilitiesofourmodel
+ comparedtostate-of-the-artmethods
+---
+## Architecture
 
 ![Architechural diagram final 1](https://github.com/Mayukh-Mondal-Dev/Hybrid-SSRN-Vision-Transformer-Architecture-For-Hyperspectral-Image-Classification/assets/103057066/efd9f967-3c30-48d0-8973-ea7771f0ec48)
